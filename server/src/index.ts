@@ -29,7 +29,12 @@ app.use("/users",userRoutes);
 app.use("/expenses", expenseRoutes);
 
 /* SERVER */
-const port = Number(process.env.PORT) || 8000;
+const port = Number(process.env.PORT) || 3001;
 app.listen(port, "0.0.0.0", () => {
   console.log(`Server running on port ${port}`);
 });
+
+
+
+// inventorymanagemnet.c7aemecsafz5.eu-north-1.rds.amazonaws.com
+//db name : rds_inventory_initial
