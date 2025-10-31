@@ -82,7 +82,7 @@ const Sidebar = () => {
         }`}
       >
         <Image
-          src=""
+          src="https://s3-inventorydanagementdashboard.s3.eu-north-1.amazonaws.com/logo.png"
           alt="invix-logo"
           width={27}
           height={27}
